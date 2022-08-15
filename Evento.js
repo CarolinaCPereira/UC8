@@ -17,10 +17,11 @@ else {console.log (" cadastro permitido")}
 
 console.log ("--------------------")
 
-let ListaDeParticipantes = 112;
+let listaDeParticipantes = ["Helena", "Fernanda", "Milena", "Mariana", "Maria", "Ana", "Leda", "Elaine", "Yvone", "Claudia", "Lina", "Alice"];
 console.log ("Inserir Lista de Participantes")
-
-if ( ListaDeParticipantes < 100 ) {console.log ("cadastro permitido")}
+ let quantidadeDeParticipantes = listaDeParticipantes.length;
+ 
+if ( quantidadeDeParticipantes < 100 ) {console.log ("cadastro permitido")}
 else {console.log (" cadastro não permitido: excesso de participantes")}
 
 console.log ("--------------------")
